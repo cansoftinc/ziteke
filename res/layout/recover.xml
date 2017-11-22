@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/widget192" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FF8C00"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<AbsoluteLayout android:id="@+id/widget74"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="188dp">
+    <ImageView android:id="@+id/imageView1" android:src="@drawable/logo1" android:layout_x="0dp" android:layout_height="107dp" android:layout_y="5dp" android:layout_width="match_parent"></ImageView>
+    <TextView android:layout_width="wrap_content" android:text="Enter your Email Address:" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_x="57dp" android:layout_y="118dp"></TextView>
+    <EditText android:id="@+id/edemail" android:layout_x="74dp" android:layout_y="156dp" android:layout_width="224dp" android:layout_height="wrap_content">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_width="wrap_content" android:text="Email::" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_x="16dp" android:layout_y="170dp"></TextView>
+    <Button android:id="@+id/btnsubmit" android:layout_width="92dp" android:text="SUBMIT" android:layout_height="wrap_content" android:layout_x="23dp" android:layout_y="240dp"></Button>
+    <Button android:id="@+id/btnback" android:layout_width="99dp" android:text="BACK" android:layout_height="wrap_content" android:layout_x="219dp" android:layout_y="238dp"></Button>
+    
+</AbsoluteLayout>
+</ScrollView>

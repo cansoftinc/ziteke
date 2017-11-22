@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:id="@+id/widget192"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<AbsoluteLayout
+    android:id="@+id/widget68"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >    
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="35dp"
+        >
+    </FrameLayout>   
+    <ImageView android:cropToPadding="true" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/imageView1" 
+    android:src="@drawable/splash" 
+    android:layout_x="3dip" 
+    android:layout_y="113dip">
+    </ImageView>
+    <TextView android:textSize="12sp" android:layout_width="180dp" android:text="Copyright © 2012 Dun Inc" android:id="@+id/widget42" android:layout_height="wrap_content" android:layout_x="37dp" android:layout_y="386dp"></TextView>
+</AbsoluteLayout>
+</ScrollView>

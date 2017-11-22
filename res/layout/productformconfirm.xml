@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/widget192" android:layout_width="fill_parent"
+	android:background="#FF8C00" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="346dp">
+		<TextView android:layout_width="wrap_content" android:text="OUTLET NAME :: "
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textStyle="bold" android:id="@+id/aoutletname"
+			android:textSize="18sp" android:layout_height="30dp"
+			android:layout_gravity="center_horizontal"></TextView>
+		<TextView android:layout_height="30dp" android:id="@+id/aDetails"
+			android:textSize="18sp" android:text="Address and Location"
+			android:textStyle="normal" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_x="18dp" android:layout_y="4dp"
+			android:layout_gravity="center_horizontal" android:layout_width="wrap_content"></TextView>
+		<TextView android:layout_height="30dp" android:id="@+id/aDetails"
+			android:textSize="18sp" android:text="Confirm Product and Qty Input"
+			android:textStyle="normal" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_x="18dp" android:layout_y="4dp"
+			android:layout_gravity="center_horizontal" android:layout_width="wrap_content"></TextView>
+		<TextView android:text="Product Name:"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:id="@+id/textView1"></TextView>
+
+		<TableLayout android:id="@+id/TableLayout_productconfirm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/trRow0">
+				<TextView android:text="Product Name::"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:id="@+id/tvprodname"></TextView>
+
+			</TableRow>
+			<TableRow android:id="@+id/trRow1">
+				<TextView android:text="Qty:" android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_height="wrap_content" android:layout_width="wrap_content"
+					android:id="@+id/tvqty"></TextView>
+			</TableRow>
+			
+
+		</TableLayout>
+		<TableLayout android:id="@+id/TableLayout_btnproductconfirm"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/trRow2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<Button android:id="@+id/pc_save" android:layout_width="77dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="CONFIRM" android:layout_x="120dp" android:layout_y="412dp">
+				</Button>
+
+				<Button android:id="@+id/pc_edit" android:layout_width="77dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="EDIT" android:layout_x="210dp" android:layout_y="412dp">
+				</Button>
+
+				<Button android:id="@+id/pc_cancel" android:layout_width="77dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="CANCEL" android:layout_x="210dp" android:layout_y="412dp">
+				</Button>
+
+			</TableRow>
+		
+		</TableLayout>
+
+
+	</LinearLayout>
+</ScrollView>

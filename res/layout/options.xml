@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/widget192" android:layout_width="fill_parent" android:background="#FF8C00"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView android:layout_width="wrap_content" android:text="NAME OF SALE OUTLET"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textStyle="bold" android:id="@+id/oTitle" android:textSize="18sp"
+			android:layout_height="30dp" android:layout_gravity="center_horizontal"></TextView>
+		<TextView android:layout_height="30dp" android:id="@+id/oDetails"
+			android:textSize="18sp" android:text="Address and Location"
+			android:textStyle="normal" android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_x="18dp" android:layout_y="4dp"
+			android:layout_gravity="center_horizontal" android:layout_width="wrap_content"></TextView>
+
+		<TableLayout android:id="@+id/TableLayout_btnOPTIONS"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<Button android:id="@+id/o_item" android:layout_width="79dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="Add Another Item" android:layout_x="120dp" android:layout_y="412dp">
+				</Button>
+
+			</TableRow>
+			<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<Button android:id="@+id/o_route" android:layout_width="77dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="Select Another Outlet" android:layout_x="210dp" android:layout_y="412dp">
+				</Button>
+			</TableRow>
+			<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<Button android:id="@+id/o_logout" android:layout_width="77dp"
+					android:textStyle="bold" android:layout_height="wrap_content"
+					android:text="Exit Application" android:layout_x="210dp" android:layout_y="412dp">
+				</Button>
+			</TableRow>
+		</TableLayout>
+
+	</LinearLayout>
+</ScrollView>
+

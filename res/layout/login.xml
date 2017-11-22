@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/widget192" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FF8C00"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<AbsoluteLayout android:id="@+id/widget74"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="348dp">
+		<ImageView android:id="@+id/imageView1" android:src="@drawable/logo"
+			android:layout_x="0dp" android:layout_height="107dp"
+			android:layout_y="5dp" android:layout_width="match_parent"></ImageView>
+		<Button android:layout_height="wrap_content" android:text="EXIT"
+			android:id="@+id/btnexit" android:layout_width="116dp"
+			android:layout_x="214dp" android:layout_y="286dp"></Button>
+		<Button android:layout_height="wrap_content" android:text="RESET"
+			android:id="@+id/btnreset" android:layout_width="96dp"
+			android:layout_x="118dp" android:layout_y="286dp"></Button>
+		<Button android:text="LOGIN" android:background="@drawable/button_shape"
+			android:id="@+id/btnlogin" android:layout_width="96dp" android:layout_height="42dp"
+			android:layout_x="14dp" android:layout_y="286dp"
+			></Button>
+		<TextView android:layout_width="wrap_content"
+			android:textStyle="bold" android:text="PASSWORD::"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView2" android:layout_height="wrap_content"
+			android:layout_x="14dp" android:layout_y="226dp"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:textStyle="bold" android:text="USERNAME::"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView1" android:layout_height="wrap_content"
+			android:layout_x="15dp" android:layout_y="172dp"></TextView>
+		<TextView android:layout_width="205dp" android:text="Welcome to Ziteke!"
+			android:id="@+id/custom" android:layout_height="wrap_content"
+			android:textSize="24sp" android:textColor="#FFFFFF" android:layout_x="54dp"
+			android:layout_y="120dp"></TextView>
+		<EditText android:layout_width="165dp" android:id="@+id/edpassword"
+			android:layout_height="wrap_content" android:inputType="textPassword"
+			android:layout_x="123dp" android:layout_y="215dp"></EditText>
+		<EditText android:id="@+id/edusername" android:layout_height="wrap_content"
+			android:layout_x="120dp" android:layout_y="157dp"
+			android:layout_width="166dp">
+			<requestFocus></requestFocus>
+		</EditText>
+
+	</AbsoluteLayout>
+</ScrollView>
