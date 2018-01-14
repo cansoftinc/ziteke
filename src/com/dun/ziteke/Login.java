@@ -56,7 +56,7 @@ public class Login extends dbTrackerActivity {
 
 	private ConnectivityManager connec;
 
-	private static String urlcon = "http://ziteke.ebitsonline-vws.com/mobile-app-login.php?";
+	private static String urlcon = "some login url....";
 	Boolean OK = false;
 
 	DataInputStream inputstream;
