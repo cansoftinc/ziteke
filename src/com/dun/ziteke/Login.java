@@ -43,6 +43,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+/*
+*
+*	@Author Duncan N.
+*	@Description: login screen
+*
+*/
 
 public class Login extends dbTrackerActivity {
 	String TAG = "LOGIN FORM";
@@ -561,6 +567,7 @@ public class Login extends dbTrackerActivity {
 		}
 		return sb.toString();
 	}
+	
 
 	private AlertDialog createNetProblem() {
 		// TODO Auto-generated method stub
